@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build my-lib-one &&  cd dist/my-lib-one && npm pack && cd .. && cd .. && cp -avr  dist/my-lib-one/my-lib-one**.tgz out/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },

@@ -5,6 +5,7 @@ import { Component, OnInit } from '@angular/core';
   template: `
     <p>
       my-lib-one works!
+      <lib-another></lib-another>
     </p>
   `,
   styles: [
